@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/calend.css">
+</head>
+<body>
+    <div id="calendar"> </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/jquery-ui-datepicker.min.js"></script>
+    <script>
+     $('#calendar').datepicker({
+     inline: true,
+     firstDay: 1,
+     showOtherMonths: true,
+     // stepMonths: 12,
+     dayNamesMin: ['ВС', 'ПН', 'ВТ', 'СР', 'ЧТ', 'ПТ', 'СБ'],
+     monthNames: [ "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь" ],
+
+     });
+
+    </script>
+    <script>
+     
+
+       
+    </script>
+
+
+</body>
+</html>
